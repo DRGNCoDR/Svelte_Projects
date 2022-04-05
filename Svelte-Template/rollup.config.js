@@ -22,7 +22,7 @@ export default {
   output: {
     file: `builds/app-d${Date.now()}.js`,
     format: "iife",
-  },
+  },  
   plugins: [
     del({
         targets: [
@@ -33,7 +33,7 @@ export default {
     svelte({
         emitCss: false,
       }),
-    resolve(),
+    resolve(),    
     html({
         template,
         filename: "./bulids/index.html"

@@ -22,7 +22,7 @@ export default {
   output: {
     file: `builds/app-d${Date.now()}.js`,
     format: "iife",
-  },
+  },  
   plugins: [
     del({
         targets: [
@@ -30,10 +30,8 @@ export default {
             "./builds/index.html"
         ]
     }),
-    svelte({
-        emitCss: false,
-      }),
-    resolve(),
+    svelte(),
+    resolve(),    
     html({
         template,
         filename: "./bulids/index.html"

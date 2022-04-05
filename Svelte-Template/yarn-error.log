@@ -2,7 +2,7 @@ Arguments:
   S:\Ray Files\Program Files\Nodejs\node.exe C:\Users\Ray\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js run build
 
 PATH: 
-  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Ray\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;S:\Ray Files\Program Files\Nodejs;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\Users\Ray\AppData\Local\Microsoft\WindowsApps;C:\Users\Ray\AppData\Roaming\npm;C:\Users\Ray\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ray\.dotnet\tools;C:\Users\Ray\AppData\Local\gitkraken\bin
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Ray\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;S:\Ray Files\Program Files\Nodejs;C:\Program Files\Git\cmd;C:\Users\Ray\AppData\Local\Microsoft\WindowsApps;C:\Users\Ray\AppData\Roaming\npm
 
 Yarn version: 
   1.22.10
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  SyntaxError: S:\Ray Files\development\svelte\svelte-todo\SvelteToDo\package.json: Unexpected token s in JSON at position 448
+  SyntaxError: S:\Ray Files\DEVELOPMENT\SVELTE\Template\Svelte-Template\package.json: Unexpected token ~ in JSON at position 447
       at JSON.parse (<anonymous>)
       at C:\Users\Ray\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
       at Generator.next (<anonymous>)
@@ -41,11 +41,9 @@ npm manifest:
       "rollup-plugin-svelte": "^7.1.0",
       "svelte": "^3.35.0"
     },
-    "devDependencies": {},
-    svelte({
-      emitCss: false,
-    })
+    "devDependencies": {}
   }
+  ~
 
 yarn manifest: 
   No manifest
